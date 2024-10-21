@@ -1,0 +1,42 @@
+.Home__img {
+  position: relative;
+
+  img {
+    width: 100%;
+    animation: quran-animation 4s ease-in-out infinite 1s;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 70%;
+    height: 30px;
+    bottom: 0;
+    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    z-index: -1;
+    animation: shadow-animation 4s ease-in-out infinite 1s;
+  }
+}
+
+@keyframes quran-animation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
+@keyframes shadow-animation {
+  0%,
+  100% {
+    width: 70%;
+  }
+  50% {
+    width: 50%;
+  }
+}

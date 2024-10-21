@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .mainBtn {
+    @apply bg-qur-1 text-qur-2 p-3 rounded-md font-semibold shadow-md shadow-qur-1 duration-300 hover:bg-qur-2 hover:text-qur-1;
+  }
+
+  .mainGrid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4;
+  }
+
+  .mainShadow {
+    @apply shadow-md shadow-qur-1;
+  }
+}
+
+section {
+  height: calc(100dvh - 4rem);
+  overflow-y: auto;
+  padding-block: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
