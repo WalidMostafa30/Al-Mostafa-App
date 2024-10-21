@@ -77,7 +77,7 @@ const SalahTime: React.FC = () => {
   return (
     <section className="SalahTime">
       <GlobalTitle title="اوقات الصلاة" />
-      {timeArray.length > 0 ? (
+      {timeArray ? (
         <>
           <div className="w-fit mx-auto p-2 rounded-xl flex items-center justify-center gap-3 mb-5 text-xl bg-qur-1 mainShadow">
             <h1 className="text-qur-2">اختر المدينة</h1>
