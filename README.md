@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Islamic App 🕌  
 
-## Getting Started
+This is a feature-rich **Islamic App** built with **Next.js**, **TypeScript**, **Axios**, and **Tailwind CSS**. The app provides a variety of Islamic resources, including the Quran, Hadiths, Duas, Azkar, and more. It offers access to the full Quran with recitations, hundreds of Hadiths from Sahih Bukhari, daily supplications, and prayer times for different cities. Additionally, users can create their own prayer beads (Subha) with a counter for each Tasbeeh.
 
-First, run the development server:
+## Features ✨  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Quran**:  
+  - Access to all **Juzs**, **Surahs**, and **Ayahs** of the Quran.  
+  - **Audio** for each Ayah, allowing users to listen to the recitations.  
+- **Hadiths**:  
+  - Includes around **1000 Hadiths** from **Sahih Bukhari**.  
+- **Duas**:  
+  - Collection of **Quranic Duas** and **Prophet's (PBUH) Duas**.  
+- **Azkar**:  
+  - **Morning and Evening Azkar**, **Azkar for Sleep**, **Azkar After Prayer**, **Tasbeehs**, and general **Dhikr** of Allah.  
+- **Custom Subha (Prayer Beads)**:  
+  - Create your own custom prayer beads with a counter for each Tasbeeh.  
+- **Prayer Times**:  
+  - Accurate prayer times for all cities and provinces.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used 🛠️  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: For building the app with server-side rendering and routing.  
+- **TypeScript**: For type safety and better development experience.  
+- **Axios**: For fetching data from APIs.  
+- **Tailwind CSS**: For modern and responsive design.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Live Demo 🌐  
+https://al-mostafa-app.vercel.app/
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Screenshot 📸  
+![quran-app](https://github.com/user-attachments/assets/3e662ece-17fd-462c-b34d-f38f35e768dd)
